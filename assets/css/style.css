@@ -1,0 +1,168 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    max-width: 100%;
+}
+.cmn_btn{
+    background-color:#fcc302 ;
+    text-decoration: none;
+    padding:10px 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* ol, ul, li{
+    margin: 0;
+    padding: 0;
+} */
+.header_section{
+    background-color: #daac00;
+    position: sticky;
+    top: 0;
+    background-color: #daac00;
+    z-index: 999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.form_search{
+    position: relative;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.form_search input{
+    border: none;
+ 
+    background: #fcc302;
+}
+
+.form_search button{
+    position: absolute;
+    right: 8px;
+    top: 0;
+    padding: 6px 21px;
+    border: none;
+    background-color: #00bec9;
+    border-radius: 3px;
+}
+.header_section .nav-item .nav-link{
+    color: #fff;
+    font-family: "Poppins", serif;
+}
+.hero_section{
+    background-color: #fcc302;
+}
+.hero_section .row{
+   
+}
+.hero_content p{
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.contact_btn{
+   
+    background-color:#00bec9 ;
+    text-decoration: none;
+    padding:10px 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+.services_btn{
+  border: 1px solid #f1f1f1;
+  text-decoration: none;
+  padding:10px 15px;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0px 10px;
+  outline: lightyellow;
+}
+
+.vaxcine_section{
+    background-color: #fcc302;
+}
+
+.vaxcine_item .card{
+    background: none;
+    border: none;
+}
+
+.product_section{
+    background-color: #fcc302;
+}
+.product_item {
+    margin-bottom: 15px;
+}
+
+.product_item .card{
+    background: none;
+    border: none;
+
+}
+
+.product_item h6 span{
+    text-decoration: line-through;
+   margin-right: 10px;
+   color: #fff;
+   font-size: 20px;
+}
+.product_item h6 {
+    color: #fff;
+    font-size: 20px;
+}
+.buy_now_btn{
+    background-color: #00bec9;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.team_item{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.team_item .card{
+    background: none;
+    border: none;
+}
+.social_icon a{
+    color: #daac00;
+}
+
+.ata_glance{
+    background: url(/assets/images/catbg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+   
+}
+.ata_glance .row{
+    padding: 90px 0px;
+}
+
+.blog_item{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin: 15px 0px;
+}
+.blog_body{
+    padding: 10px 15px;
+}
+.blog_body .date{
+    color: #00bec9;
+}
+.blog_body a{
+    text-decoration: none;
+    color: #00bec9;
+    font-weight: 600;
+}
+
+.footer_section{
+    background: #343434;
+}
+
+.footer_section .social_icon a{
+    color: #fff;
+}
+.copyright{
+    background: #daac00;
+}
