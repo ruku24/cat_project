@@ -55,6 +55,13 @@
 .hero_section .row{
    
 }
+.hero_content{
+    margin-left: 50px;
+}
+.hero_img img{
+    margin-right: 100px;
+    display: block;
+}
 .hero_content p{
     text-align: justify;
     padding: 10px 0px;
@@ -67,6 +74,9 @@
     padding:10px 15px;
     color: #fff;
     border-radius: 4px;
+}
+.about_content{
+    padding: 90px 80px;
 }
 .services_btn{
   border: 1px solid #f1f1f1;
@@ -129,7 +139,7 @@
 }
 
 .ata_glance{
-    background: url(/assets/images/catbg1.png);
+    background: url(../images/catbg1.png);
     background-repeat: no-repeat;
     background-size: cover;
    
