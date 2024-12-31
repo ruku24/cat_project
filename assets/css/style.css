@@ -6,6 +6,9 @@
     font-family: "Poppins", serif;
     max-width: 100%;
 }
+.container{
+    max-width: 1120px;
+}
 .cmn_btn{
     background-color:#fcc302 ;
     text-decoration: none;
@@ -22,7 +25,7 @@
     background-color: #daac00;
     position: sticky;
     top: 0;
-    background-color: #daac00;
+   
     z-index: 999;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -48,19 +51,22 @@
 .header_section .nav-item .nav-link{
     color: #fff;
     font-family: "Poppins", serif;
+    font-size: 15px;
 }
 .hero_section{
     background-color: #fcc302;
 }
-.hero_section .row{
-   
-}
+
 .hero_content{
     margin-left: 50px;
 }
 .hero_img img{
     margin-right: 100px;
     display: block;
+}
+.hero_content h1{
+    font-size: 56px;
+    
 }
 .hero_content p{
     text-align: justify;
@@ -76,7 +82,10 @@
     border-radius: 4px;
 }
 .about_content{
-    padding: 90px 80px;
+    padding: 90px 0px;
+}
+.about_content h2{
+    font-size: 45px;
 }
 .services_btn{
   border: 1px solid #f1f1f1;
