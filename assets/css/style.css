@@ -38,6 +38,13 @@
  
     background: #fcc302;
 }
+.form_search input:focus{
+    background: #fcc302;
+    border: none;
+}
+.form_search input::placeholder{
+    color: #fff;
+}
 
 .form_search button{
     position: absolute;
@@ -118,6 +125,10 @@
     border: none;
 
 }
+.product_item .card-header{
+    border-bottom: 0;
+    background: none;
+}
 
 .product_item h6 span{
     text-decoration: line-through;
@@ -143,8 +154,14 @@
     background: none;
     border: none;
 }
-.social_icon a{
-    color: #daac00;
+.team_item .card-header{
+border-bottom: none;
+}
+.team_item .social_icon a{
+    color: #fff;
+    background: #daac00;
+    border-radius: 3px;
+    margin: 0px 2px;
 }
 
 .ata_glance{
@@ -185,3 +202,34 @@
 .copyright{
     background: #daac00;
 }
+
+
+/* resposive css start */
+
+@media only screen and (max-width: 700px) {
+    .hero_content h1{
+        font-size: 25px;
+    }
+    .hero_img  {
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .about_content h2{
+        font-size: 25px;
+    }
+    .team_item{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .blog_item {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    }
+
+
+
+
+/* responsive css end */
