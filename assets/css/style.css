@@ -112,6 +112,11 @@
     background: none;
     border: none;
 }
+.vaxcine_item .card-header{
+    border-bottom: none;
+    box-shadow: none;
+    background: none;
+}
 
 .product_section{
     background-color: #fcc302;
